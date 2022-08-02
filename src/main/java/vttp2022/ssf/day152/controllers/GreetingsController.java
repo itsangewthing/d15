@@ -44,3 +44,21 @@ public class GreetingsController {
 
     
 
+
+
+    //    //GET METHOD  - DESIGN OF THE URL II -".../GREETINGS" <---
+    //    @GetMapping
+    //    public String getGreetingWithGet(@RequestParam String name, Model model){
+    //        model.addAttribute("name", name);
+    //        return "greetings (GET)";
+    //    }
+   
+    //    //POST METHOD
+    //    @PostMapping
+    //    public String postGreetings(@RequestBody MultiValueMap<String, String> form, Model model) {
+    //        String name = form.getFirst("name");
+    //        model.addAttribute("name", name);
+           
+    //        return "greetings";
+    //    }
+       
